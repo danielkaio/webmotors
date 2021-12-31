@@ -2,7 +2,7 @@
 require_relative "routes/version"
 
 
-describe "GET/model" do
+describe "GET/version" do
 
     
     context "retorna lista" do

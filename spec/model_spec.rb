@@ -1,8 +1,8 @@
 
-require_relative "routes/make"
+require_relative "routes/model"
 
 
-describe "GET/make" do
+describe "GET/model" do
 
     
     context "retorna lista" do
