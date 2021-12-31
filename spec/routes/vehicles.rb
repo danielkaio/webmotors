@@ -1,10 +1,10 @@
 
 require_relative "base_api"
 
-class Make < Api
+class Vehicles < Api
    
     def lista(payload)   
-    return self.class.get("/Make",
+    return self.class.get("/Vehicles?Page=1",
       body:payload.to_json,
           
             headers:{

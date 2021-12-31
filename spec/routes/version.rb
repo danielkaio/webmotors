@@ -1,15 +1,15 @@
 
 require_relative "base_api"
 
-class Make < Api
+class Version < Api
    
     def lista(payload)   
-    return self.class.get("/Make",
-      body:payload.to_json,
+    return self.class.get("/Version?ModelID=1",
+      body:payload,
           
             headers:{
-            "Content-type":"aplication/json",
-
+                       
+                 "ModelID":"ModelID"
             },
         )
       end

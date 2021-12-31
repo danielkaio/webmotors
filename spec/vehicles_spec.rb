@@ -1,11 +1,11 @@
 
-require_relative "routes/make"
+require_relative "routes/vehicles"
 
 
-describe "GET/make" do
+describe "GET/vehiches" do
 
     
-    context "retorna lista" do
+    context " lista de automoveis" do
 
         before(:all) do
      
@@ -17,7 +17,7 @@ describe "GET/make" do
         }
           
                
-        @result = Make.new.lista(@payload)
+        @result = Vehicles.new.lista(@payload)
               
         puts @result
               

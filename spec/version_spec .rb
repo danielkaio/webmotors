@@ -1,8 +1,8 @@
 
-require_relative "routes/make"
+require_relative "routes/version"
 
 
-describe "GET/make" do
+describe "GET/model" do
 
     
     context "retorna lista" do
@@ -17,7 +17,7 @@ describe "GET/make" do
         }
           
                
-        @result = Make.new.lista(@payload)
+        @result = Version.new.lista(@payload)
               
         puts @result
               
