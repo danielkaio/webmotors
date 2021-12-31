@@ -17,11 +17,11 @@ describe "GET/model" do
         }
           
                
-        @result = Make.new.lista(@payload)
+        @result = Model.new.lista(@payload)
               
         puts @result
               
-              
+            
         end
 
         it "deve retornar 200" do
